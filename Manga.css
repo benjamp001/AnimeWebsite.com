@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  header{
+    height: 100px;
+    background: black;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+    margin-top: -80px;
+    }
+  .logo{
+    font-family: 'Aclonica';
+    font-size: 25px;
+    padding: 50px;
+    margin-left: 80px;
+    background:black;
+  
+   }
+  .logo a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav_bar{
+    font-family: 'poppins';
+    font-size: 20px;
+    float: right;
+    list-style: none;
+  }
+  .nav_bar li{
+    display: inline-block;
+  }
+  .nav_bar li a{
+    padding: 15px;
+  }
+  .nav_bar li a:hover{
+    background: #7D7A7A;
+    colour: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-width: auto;
+  }
+  /* above is the menu bar*/
+  
+  .container{
+    max-width: auto;
+    margin: 80px;
+    overflow: auto;
+  }
+  
+  .coming_{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+  }
+  .coming_ img{
+    width: 100%;
+    height: auto;
+   
+  }
+  .desc{
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+    }
+  
